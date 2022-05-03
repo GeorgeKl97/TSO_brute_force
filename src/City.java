@@ -6,10 +6,10 @@ public class City {
 
 
     // method to create Cities
-    public City(String name, int x, int y) {
+    public City(String name, String x, String y) {
         this.name = name;
-        this.x = x;
-        this.y = y;
+        this.x = Integer.parseInt(x);
+        this.y = Integer.parseInt(y);
     }
 
     public int distanceTo(City city) {
