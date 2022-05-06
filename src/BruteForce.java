@@ -36,6 +36,7 @@ public class BruteForce {
             // go back to start city
             int distanceFromCurrentNode = cities.get(currentCityId).distanceTo(startCity);
             distance += distanceFromCurrentNode;
+            currentPath.add(startCity.getName());
             // check if distance is smaller than current best distance
             if (distance < shortestDistance) {
                 shortestDistance = distance;
