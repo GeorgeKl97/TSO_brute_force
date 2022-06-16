@@ -10,7 +10,7 @@ public class TSP {
         List<City> cities = new ArrayList<City>();
 
         // populate list of cities from file
-        cities = FileScanner.scanFile("src/a280.tsp");
+        cities = FileScanner.scanFile("data/a280.tsp");
         // To see improvement over a reasonable span of time uncomment the following line
         //cities = FileScanner.scanFile("src/test.tsp");
 
